@@ -1,0 +1,28 @@
+.list {
+    background-color: #ffffff10;
+    border-radius: .5rem;
+    padding: 1rem;
+
+    ol {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin: 0;
+        padding-left: 0;
+        list-style-position: inside
+    }
+
+    li {
+        text-align: left;
+        font-size: 1rem;
+        
+        &:not(:last-child) {
+            border-bottom: 1px solid #ffffff10;
+            padding-bottom: 1rem;
+        }
+    }
+
+    .list-no-items {
+        margin: .125rem;
+    }
+}
