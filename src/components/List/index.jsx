@@ -12,7 +12,7 @@ const List = ({list}) => {
                     }
                 </ol>
             ) : (
-                <h5 className="list-no-items">No items added</h5>
+                <h5 className="list_no-items">No items added</h5>
             )}
         </div>
     )
