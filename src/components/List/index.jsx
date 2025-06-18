@@ -18,7 +18,7 @@ const List = ({list, clearList}) => {
                     </ol>
                 </>
             ) : (
-                <h5 className="list_no_items">No items added</h5>
+                <h5 className={styles.list_no_items}>No items added</h5>
             )}
         </div>
     )
