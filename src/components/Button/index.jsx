@@ -1,8 +1,8 @@
-import './index.scss'
+import styles from './index.module.scss'
 
 const Button = ({children, onClick}) => {
     return (
-        <button className="button" onClick={onClick}>{children}</button>
+        <button className={styles.button} onClick={onClick}>{children}</button>
     )
 }
 

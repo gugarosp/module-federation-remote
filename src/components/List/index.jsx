@@ -1,8 +1,8 @@
-import './index.scss'
+import styles from './index.module.scss'
 
 const List = ({list}) => {
     return (
-        <div className="list">
+        <div className={styles.list}>
             {list.length > 0 ? (
                 <ol>
                     {
@@ -12,7 +12,7 @@ const List = ({list}) => {
                     }
                 </ol>
             ) : (
-                <h5 class="list-no-items">No items added</h5>
+                <h5 className="list-no-items">No items added</h5>
             )}
         </div>
     )
