@@ -3,6 +3,11 @@
     border-radius: .5rem;
     padding: 1rem;
 
+    .list_button_wrapper {
+        display: flex;
+        justify-content: flex-end;
+    }
+
     ol {
         display: flex;
         flex-direction: column;

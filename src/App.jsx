@@ -6,13 +6,17 @@ import Button from './components/Button'
 
 function App() {
 
-  const [todo, setTodo] = useState('')
-  const [todoList, setTodoList] = useState([])
+  const [todo, setTodo] = useState('');
+  const [todoList, setTodoList] = useState([]);
 
   const addTodo = () => {
-    todo.length > 0 && setTodoList([...todoList, todo])
+    todo.length > 0 && setTodoList([...todoList, todo]);
     setTodo('');
   };
+
+  const clearList = () => {
+    setTodoList([]);
+  }
 
   return (
     <>
@@ -23,7 +27,7 @@ function App() {
             <Button onClick={addTodo}>Add</Button>
         </aside>
         <div>
-            <List list={todoList} />
+            <List list={todoList} clearList={clearList}/>
         </div>
       </main>
     </>
