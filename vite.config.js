@@ -23,10 +23,5 @@ export default defineConfig({
         target: 'esnext',
         minify: false,
         cssCodesplit: false
-    },
-    css: {
-        modules: {
-            localsConvention: 'camelCaseOnly',
-        },
-    },
+    }
 })
