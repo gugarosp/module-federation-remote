@@ -1,9 +1,9 @@
 import styles from './index.module.scss'
 
-const Header = ({text}) => {
+const Header = ({text, colorMode = "dark"}) => {
     return (
         <header>
-            <h2 className={styles.header_h2}>{text}</h2>
+            <h2 className={`${styles.header_h2} ${styles[colorMode]}`}>{text}</h2>
         </header>
     )
 }

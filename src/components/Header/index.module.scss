@@ -5,6 +5,15 @@
     border-left: 8px solid #f06292;
     line-height: 1.5;
     padding: .5rem 0 .51rem 1rem;
-    background-color: #ffffff05;
     border-radius: 8px;
+
+    &.dark {
+        color: white;
+        background-color: #ffffff05;
+    }
+
+    &.light {
+        color: #242424;
+        background-color: #00000005;
+    }
 }
