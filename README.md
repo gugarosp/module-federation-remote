@@ -1,8 +1,8 @@
 # Module Federation - Remote
 
-This is an example of Module Federation remote application. It will serve components to another application.
+This is an example of Module Federation remote application. It will serve components to another application. A live version of this application can be seen [here](https://t-latest-gustavo-pereira-module-federation-remote-mod-6a8fef-ze.zephyrcloud.app/).
 
-## How to run
+## How to run locally
 
 1. Install [Node.js](https://nodejs.org/)
 
